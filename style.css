@@ -1,0 +1,44 @@
+.container{
+    /* position: absolute; */
+    background-color: #999;
+    width: 300px; height: 410px;
+    margin-left: 300px;
+    padding: 10px;
+}
+#display{
+	/*position:absolute;*/
+    height: 100px; width: 290px;
+    background-color: white;
+    margin-bottom: 10px;
+    text-align: right;
+    display: grid;
+    border: 0;
+}
+.button{
+    height: 60px; width: 70px;
+    font-size:medium;
+}
+#result{
+    background-color: lightskyblue;
+    border-color: grey;
+    height: 60px; width: 70px;
+    font-size:medium;
+}
+#result:hover{
+    background-color: cornflowerblue;
+}
+#delete{
+   color:white;
+   border-color: darkgray;background-color: red;
+   height: 60px; width: 70px;
+   font-size:medium;
+}
+#delete:hover{
+    background-color: crimson;
+}
+.button:hover{
+    background-color: dimgrey;
+    color: white;
+    border-radius: 0;
+    border-color: lavender;
+}
